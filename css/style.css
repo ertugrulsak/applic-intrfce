@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    margin: auto;
+    width: 1213px;
+    height: 830px;
+    background-color: #FFF;
+   padding: 100px;
+   border: 1px solid black;
+
+
+}
+
+.navbar{
+    width: 1013px;
+    height: 128px;
+     background-color:#FFF ; 
+   
+
+    
+    
+}
+.header{
+    width: 91px;
+    height: 40px;
+    font-size: 32px;
+    font-family: 'Merriweather', serif;
+}
+
+.nav{
+    width: 1013px;
+    height: 64px;
+    margin-top: 24px;
+    display: flex;
+    
+}
+
+.arama{
+    min-width: 327px;
+    max-width: 327px;
+    width: 100%;
+    height:64px;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    
+}
+
+.buyutec{
+    width: 32px;
+    height: 32px; 
+    
+    
+
+   
+}
+
+.text{
+   background-color: #FFF;
+     border: none; 
+    min-width: 255px;
+    max-width: 255px;
+    width: 100%;
+    height:32px;
+    border-radius: 4px;
+    margin: 16px 16px 16px 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    &:focus{
+        outline: 0;
+    }
+    
+}
+
+
+
+
+ul li{
+    list-style: none;
+    
+    
+}
+
+.secenek{
+    width: 534px;
+    height: 56px;
+     display: flex; 
+    margin:4px 0px 4px 152px;
+    align-content: center;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.option{
+    font-size: 16px;
+    width: 121px;
+    height: 56px;
+     display: flex; 
+    align-items: center;
+    justify-content: center;
+   
+    background-color: #FFF;
+}
+
+
+.option:hover{
+    background-color: #849FFF;
+     border-radius: 8px;
+     cursor:pointer;
+     color:#FFF
+}
+
+
+.main{
+    width: 1013px;
+    height: 432px;
+    background-color: #FFF;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.profile{
+    width: 327px;
+    height: 208px;
+    background-color: #FBFCFF;
+    border-radius: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    
+}
+
+.card{
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.kare{
+    width: 125px;
+    height: 106px;
+    margin-left: 16px;
+    
+}
+
+.lelah{
+    font-family: 'Merriweather', serif;
+    font-size:18px;
+    margin-top: 15px;
+}
+
+.troy{
+    font-family: 'Poppins', sans-serif;
+    font-size:14px;
+    
+    
+}
+
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    color: #516FD4;
+}
+
+.cloth{
+    width: 61px;
+    height: 22px;
+    border-radius: 10px;
+    background-color: #FFF;
+    border: 1px solid #BFC8E6;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Poppins', sans-serif;
+    font-size:12px;
+    margin-top: 4px;
+}
+
+.cloth:hover{
+    background-color: #849FFF;
+    
+    cursor:pointer;
+    color:#FFF
+    
+}
+.stem{
+    width: 57px;
+    height: 22px;
+    border-radius: 10px;
+    background-color: #FFF;
+    border: 1px solid #BFC8E6;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4px;
+    margin-top: 4px;
+
+    font-family: 'Poppins', sans-serif;
+    font-size:12px;
+}
+
+
+
+.stem:hover{
+    background-color: #849FFF;
+    
+    cursor:pointer;
+    color:#FFF
+}
